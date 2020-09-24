@@ -1,0 +1,286 @@
+
+
+* {
+    margin:0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+    font-family: 'Poppins',
+    sans-serif;
+
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+img {
+    max-width: 100%;
+}
+
+
+.navbar {
+    margin: 0 auto;
+    width: 100%;
+    background-color: #F0FFF0;
+    padding: 1rem 5rem 0rem 5rem;
+}
+a.nav-link {
+    margin-right: 2rem;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0 0 0);
+}
+.logo {
+    width: 11rem;
+}
+.signin {
+    background-color: #21B573;
+    color: white;
+    padding: 10px 28px;
+    border: none;
+    border-radius: 30px;
+}
+
+.welcome-area {
+    background-color: #F0FFF0;
+    padding: 5rem 0rem;
+}
+small {
+    color: red;
+}
+.hero-text h1 {
+    font-weight: 700;
+    padding: 1.2rem 0rem;
+}
+.hero-text p {
+    padding-bottom: 1rem;
+}
+
+.hero-c {
+    color: #21B573;
+}
+
+
+
+
+
+/*=======================
+ Course Detail CSS Area Start 
+=======================*/
+
+.course-detail {
+    padding: 5rem 0rem;
+}
+
+
+.single-detail {
+    background-color: #F8FFFB;
+    margin: 1rem .6rem;
+    padding: 2rem 1rem;
+    text-align: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.single-detail:hover {
+    background-color: white;
+    -webkit-box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.1);
+    transition: all .4s;
+}
+.active-detail {
+    background-color: white;
+    -webkit-box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.1);
+}
+.single-detail img {
+    width: 5rem;
+}
+.single-detail h4 {
+    padding-top: 1rem;
+    font-weight: 400;
+}
+
+
+
+
+
+
+/*=======================
+ Course Area CSS Area Start 
+=======================*/
+
+.course-area {
+    padding: 2rem 0rem 3rem 0rem;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 800;
+    padding-bottom: 3rem;
+}
+.card {
+    margin: 2rem 0rem;
+    border-radius: 18px;
+    border: none;
+        -webkit-box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.1);
+        -moz-box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.1);
+}
+.card img {
+    padding: 1rem 1rem 0rem 1rem;
+}
+.other {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0rem 1rem 0rem;
+}
+.other img {
+    width: 3rem;
+}
+.other p {
+    font-size: 16px;
+}
+.date {
+    display: flex;
+}
+.seat {
+    display: flex;
+}
+.date p{
+    margin-left: .5rem;
+}
+.seat p {
+    margin-left: .5rem;
+}
+svg {
+    font-size: 22px;
+}
+
+
+
+
+
+/*=======================
+ Trainer Area CSS Area Start 
+=======================*/
+
+.trainer-area {
+    padding: 4rem 0rem;
+}
+.single-trainer {
+    position: relative;
+}
+
+.trainer-img {
+    text-align: center;
+    width: 100%;
+}
+
+.trainer-img:after {
+    content: "";
+    background-color: #242d33;
+    height: 76%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    opacity: 0;
+    transition: all .3s ease 0s;
+}
+
+.trainer-img:hover:after {
+    opacity: .7;
+}
+
+.single-trainer:hover .trainer-img p {
+    display: block;
+}
+
+.trainer-img p {
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    text-align: center;
+    color: white;
+    transition: all .3s ease 0s;
+    z-index: 1;
+    overflow: hidden;
+    display: none
+}
+
+.trainer-text {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+/*=======================
+ Testimonial Area CSS Area Start 
+=======================*/
+.testimonial-area {
+    padding: 3rem 0rem 5rem 0rem;
+}
+.single {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.single img {
+    max-width: 8rem;
+    margin-right: 2rem;
+}
+
+
+
+
+/*=======================
+ Footer Area CSS Area Start 
+=======================*/
+
+.footer-area {
+    background-color: #282531;
+    padding: 2rem 0rem;
+    color: white;
+}
+.footer h5 {
+    font-weight: 700;
+}
+li {
+    list-style: none;
+    text-decoration: none;
+}
+.footer-area li a {
+    color: white;
+    font-weight: 200;
+
+}
+li a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.copyright {
+    text-align: center;
+}
+
+
+
+.copyright {
+    background-color: #282531;
+    color: white;
+    padding: 1rem 0rem;
+}
+.copyright p{
+    margin: 0;
+}
